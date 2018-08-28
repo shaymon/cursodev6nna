@@ -11,26 +11,26 @@
         <fieldset>
                 <legend>Cadastro de Usuário</legend>    
             <p>Nome Completo:</p>
-            <input type="text" name="nomeCompleto" placeholder="Insira o nome">
+            <input type="text" name="nomeCompleto" placeholder="Insira o nome" required>
             <p>Senha:</p>
-            <input type="password" name="senha" placeholder="Insira a senha">
+            <input type="password" name="senha" placeholder="Insira a senha" required>
             <br>
             <p>Sexo:</p>
-            <input type="radio" name="sexo" value="m"> Masculino
-            <input type="radio" name="sexo" value="f"> Feminino
+            <input type="radio" name="sexo" value="m" required> Masculino
+            <input type="radio" name="sexo" value="f" required> Feminino
             <br>
             <p>Esporte Favorito:</p>
-            <input type="checkbox" name="volei" value="volei"/> Volei
+            <input type="checkbox" name="volei" value="volei" required/> Volei
             <br>
-            <input type="checkbox" name="basquete" value="basquete"/> Basquete
+            <input type="checkbox" name="basquete" value="basquete" required/> Basquete
             <br>
-            <input type="checkbox" name="futebol" value="futebol"/> Futebol
+            <input type="checkbox" name="futebol" value="futebol" required/> Futebol
             <br>
-            <input type="checkbox" name="luta" value="luta"/> Lutas (Judô, caratê, Capoeira, etc...)
+            <input type="checkbox" name="luta" value="luta" required/> Lutas (Judô, caratê, Capoeira, etc...)
             <br><br>
             
             <P>Selecione a cidade:</P>
-            <select name="cidade">
+            <select name="cidade" required>
                 <option value="">Selecione</option>
                 <option value="belem">Belém</option>
                 <option value="ananindeua">Ananindeua</option>
@@ -39,7 +39,15 @@
             <br><br>
             <p>Observações:</p>
             <textarea cols="30" rows="5" placeholder="Insira as observações"></textarea>
-            
+            <br>
+            <p>Insira o E-mail:</p>
+            <input type="email">
+            <br>
+            <p>Data:</p>
+            <input type="date">
+            <br>
+            <p>Cor:</p>
+            <input type="color">
             <br><br>
             <input type="submit" value="Enviar">
             <input type="submit" value="Cancelar">
