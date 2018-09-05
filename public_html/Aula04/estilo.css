@@ -1,0 +1,18 @@
+
+div{
+    font-size: 30px;
+    font-family: helvetica;
+    color: blue;
+}
+#postagens{
+    font-size: 15px;
+    font-family: sans-serif;
+    color: green
+}    
+.conteudos{
+    color: gray;
+    
+}
+.conteudos, .perfil{
+    color: green;
+}

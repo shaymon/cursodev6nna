@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+            <center><h1>Formulário de Cadastro</h1></center>
+            <fieldset>
+            <legend>Dados Pessoais</legend>    
+            Nome:
+            <input type="text" name="nome" placeholder="" required>
+            <br>
+            E-mail:
+            <input type="text" name="email" placeholder="" required>
+            <br>
+            Cidade:
+            <input type="text" name="Cidade" placeholder="" required>
+            <br>
+            Estado:
+            <select name="Estado" required>
+                <option value="">Selecione</option>                
+                <option value="Pa">Pará</option>
+                <option value="Am">Amazonas</option>
+                <option value="Ac">Acre</option>
+                <option value="Ma">Maranhão</option>
+                <option value="To">Tocantins</option>
+                <option value="Ro">Roraima</option>
+            </select>
+            
+            </fieldset>    
+            <fieldset>
+            <legend>Dados Profissionais:</legend>
+            <p><b>Cargo pretendido:</b></p>
+            
+            <input type="radio" name="cargo" value="analista de sistema" required/> Analista de Siatemas
+            
+            <input type="radio" name="cargo" value="analista de banco de dados" required/> Analista de Banco de Dados
+            
+            <input type="radio" name="cargo" value="analista de suporte" required/> Analista de Suporte
+            <br><br>
+            
+            <p><b>Tecnologias de interesse:</b></p>
+            <input type="checkbox"  value="java" required/> Java
+            <input type="checkbox"  value="html,CSS" required/> HTML, CSS
+            <input type="checkbox"  value="javascript" required/> JavaScript
+            <input type="checkbox"  value="sql" required/> SQL
+            
+            <br><br>
+            <p><b>Mini currículo:</b></p>
+            <textarea cols="30" rows="5" placeholder="Insira as observações"></textarea>
+            <br>
+            </fieldset>
+           
+            <br><br>
+            <fieldset>
+            <legend>Dados Profissionais:</legend>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+            </fieldset>  
+    </body>
+</html>
