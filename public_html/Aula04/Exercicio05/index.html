@@ -5,10 +5,12 @@
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="estilo.css" rel="stylesheet">
     </head>
     <body>
+        <form>
             <center><h1>Formulário de Cadastro</h1></center>
-            <fieldset>
+            <fieldset id="dadosPessoas">
             <legend>Dados Pessoais</legend>    
             Nome:
             <input type="text" name="nome" placeholder="" required>
@@ -21,7 +23,7 @@
             <br>
             Estado:
             <select name="Estado" required>
-                <option value="">Selecione</option>                
+                <option value="">Escolha</option>                
                 <option value="Pa">Pará</option>
                 <option value="Am">Amazonas</option>
                 <option value="Ac">Acre</option>
@@ -29,9 +31,9 @@
                 <option value="To">Tocantins</option>
                 <option value="Ro">Roraima</option>
             </select>
-            
-            </fieldset>    
-            <fieldset>
+            </fieldset>
+            <br>
+            <fieldset id="dadosProfissionais">
             <legend>Dados Profissionais:</legend>
             <p><b>Cargo pretendido:</b></p>
             
@@ -40,25 +42,28 @@
             <input type="radio" name="cargo" value="analista de banco de dados" required/> Analista de Banco de Dados
             
             <input type="radio" name="cargo" value="analista de suporte" required/> Analista de Suporte
-            <br><br>
-            
+            <br>
+    
             <p><b>Tecnologias de interesse:</b></p>
             <input type="checkbox"  value="java" required/> Java
             <input type="checkbox"  value="html,CSS" required/> HTML, CSS
             <input type="checkbox"  value="javascript" required/> JavaScript
             <input type="checkbox"  value="sql" required/> SQL
+            <br>
             
-            <br><br>
             <p><b>Mini currículo:</b></p>
             <textarea cols="30" rows="5" placeholder="Insira as observações"></textarea>
             <br>
             </fieldset>
            
-            <br><br>
-            <fieldset>
-            <legend>Dados Profissionais:</legend>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Limpar">
-            </fieldset>  
+            <br>
+            <fieldset id="acoes">
+            <legend>Ações:</legend>
+            <center>
+            <input type="submit" value="Enviar" id="enviar">
+            <input type="reset" value="Limpar" id="limpar">
+            </center>
+            </fieldset>
+        </form>
     </body>
 </html>

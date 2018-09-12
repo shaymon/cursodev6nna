@@ -1,2 +1,29 @@
-
-
+#dadosPessoas,#dadosProfissionais,#acoes{
+    border: dotted 3px black
+} 
+#dadosPessoas, #dadosPessoas legend{
+      background-color: lightblue
+  }
+  
+  #dadosProfissionais, #dadosProfissionais legend{
+      background-color: lightcoral
+  }
+  
+  #acoes, #acoes legend{
+      background-color: lightgreen
+  }
+  
+  
+  textArea,input,select{
+      background-color: khaki
+  }
+  #enviar{
+      background-color: darkgreen
+  }
+  #limpar{
+      background-color: coral 
+  }
+  #enviar,#limpar{
+      width: 100px;
+      height: 25px;      
+  }
