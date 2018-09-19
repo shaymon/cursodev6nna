@@ -1,2 +1,8 @@
-
+#soma,#subtracao,#multiplicacao,#divisao{
+    background-color: blue;
+    color: white;
+}
+label,span{
+    color: red;
+}
 

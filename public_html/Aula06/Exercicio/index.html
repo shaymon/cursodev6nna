@@ -11,30 +11,48 @@
                 var numero2 = parseFloat(document.getElementById("numero2").value);
                 var totsoma = numero1 + numero2;
                 document.getElementById("resultado").innerHTML=totsoma;
+                    
             }
+            function subtracao(){
+                var numero1 = parseFloat(document.getElementById("numero1").value);
+                var numero2 = parseFloat(document.getElementById("numero2").value);
+                var totsubtracao = numero1 - numero2;
+                document.getElementById("resultado").innerHTML=totsubtracao;
+            }
+            function multiplicacao(){
+                var numero1 = parseFloat(document.getElementById("numero1").value);
+                var numero2 = parseFloat(document.getElementById("numero2").value);
+                var totmultiplicacao = numero1 * numero2;
+                document.getElementById("resultado").innerHTML=totmultiplicacao;
+            }
+            function divisao(){
+                var numero1 = parseFloat(document.getElementById("numero1").value);
+                var numero2 = parseFloat(document.getElementById("numero2").value);
+                var totdivisao = numero1 / numero2;
+                document.getElementById("resultado").innerHTML=totdivisao;
+            }
+            
         </script>
+        <link href="estilo.css" rel="stylesheet">
     </head>
     <body>
         <fieldset>
             <legend>Calculadora JavaScript</legend>
             #1:
             <input type="text" name="nome" placeholder="" id="numero1">
-            <br>
+            <br><br>
             #2:
             <input type="text" name="email" placeholder="" id="numero2">
             <br><br>
             <input type="button" value="+" id="soma" onclick="soma()">
-            <input type="button" value="-" id="subtracao">
-            <input type="button" value="*" id="multiplicacao">
-            <input type="button" value="/" id="divisao">
+            <input type="button" value="-" id="subtracao" onclick="subtracao()">
+            <input type="button" value="*" id="multiplicacao" onclick="multiplicacao()">
+            <input type="button" value="/" id="divisao" onclick="divisao()">
             <br><br>
             <label for="res">Resultado:</label>
             <span id="resultado"></span>
             <br><br>
-            <input type="reset" value="Limpar" id="limpar">
-            
-            
-             
+             <input type="reset" value="Limpar" id="limpar">
         </fieldset>
         
     </body>
