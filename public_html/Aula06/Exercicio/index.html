@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript">
+            function soma(){
+                var numero1 = parseFloat(document.getElementById("numero1").value);
+                var numero2 = parseFloat(document.getElementById("numero2").value);
+                var totsoma = numero1 + numero2;
+                document.getElementById("resultado").innerHTML=totsoma;
+            }
+        </script>
+    </head>
+    <body>
+        <fieldset>
+            <legend>Calculadora JavaScript</legend>
+            #1:
+            <input type="text" name="nome" placeholder="" id="numero1">
+            <br>
+            #2:
+            <input type="text" name="email" placeholder="" id="numero2">
+            <br><br>
+            <input type="button" value="+" id="soma" onclick="soma()">
+            <input type="button" value="-" id="subtracao">
+            <input type="button" value="*" id="multiplicacao">
+            <input type="button" value="/" id="divisao">
+            <br><br>
+            <label for="res">Resultado:</label>
+            <span id="resultado"></span>
+            <br><br>
+            <input type="reset" value="Limpar" id="limpar">
+            
+            
+             
+        </fieldset>
+        
+    </body>
+</html>
