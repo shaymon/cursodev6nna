@@ -1,0 +1,17 @@
+#soma,#subtracao,#multiplicacao,#divisao{
+    background-color: blue;
+    color: white;
+    width: 50px;
+    height: 25px;
+}
+label,span{
+    color: red;
+    
+}
+#numero1, #numero2{
+     background-color:beige;
+}
+#calcjs{
+    background-color:#f1f1f1
+}
+
