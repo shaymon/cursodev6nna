@@ -6,23 +6,35 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script language="JavaScript">
-	
+	function logar(){
+            var login = document.getElementById("login").value;
+            var senha = document.getElementById("senha").value;;
+                    
+           
+            if (login === "admin" && senha === "web123")
+            {
+               window.location.href = "pagina_inicial.html";
+            }
+            else{
+                alert("Usuário e/ou Senha Inválidos!");
+            }
+        }
 	</script>    
     </head>
     <body>
-    <form action="login.html">
+    <form action="">
     <center><h2>Para entrar no sistema, digite o login e sua senha nos campos a seguir:</h2></center>
         <table border="" align="center">
             <tr>
                 <th>Login</th>
-                <th><input type="text" name="login" placeholder="Insira o login" required></th>
+                <th><input type="text" id="login" placeholder="Insira o login" required></th>
             </tr>
             <tr>
                 <th>Senha</th>
-                <th><input type="password" name="senha" placeholder="Insira a senha" required></th>
+                <th><input type="password" id="senha" placeholder="Insira a senha" required></th>
             </tr>
             <tr>
-                <th><input type="submit" value="Entrar"></th>
+                <th><input type="button" value="Entrar" onclick="logar()"></th>
                 
             </tr>
         </table>
