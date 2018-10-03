@@ -31,6 +31,11 @@
                 var totdivisao = numero1 / numero2;
                 document.getElementById("resultado").innerHTML=totdivisao;
             }
+            function limpar() {
+            document.getElementById('numero1').value="";
+            document.getElementById('numero2').value="";
+            document.getElementById('resultado').value="";
+            }
             
         </script>
         <link href="estilo.css" rel="stylesheet">
@@ -52,7 +57,7 @@
             <label for="res">Resultado:</label>
             <span id="resultado"></span>
             <br><br>
-            <input type="reset" id="botao" value="limpar">
+            <input type="reset" value="Limpa" onClick="limpar()">
             
         </fieldset>
         

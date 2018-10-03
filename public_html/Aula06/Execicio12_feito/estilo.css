@@ -1,0 +1,252 @@
+#triangulo {
+    
+  width: 0px;
+  height: 0px;
+  border: 100px solid;
+  border-color: white;
+  border-bottom: 180px solid yellow;
+  margin-top: auto;
+  border-top: 0;
+
+  margin-bottom: auto;
+  margin-left: auto;
+  margin: 0 auto;
+  
+  
+    
+}
+
+#quadrado {
+    
+  width: 0px;
+  height: 80px;
+  border: 100px solid;
+  border-color: red;
+  
+  margin-top: auto;
+  border-top: 0;
+
+  margin-bottom: auto;
+  margin-left: auto;
+  margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+    
+}
+
+#calc {
+    padding: 15px;
+    margin: auto;
+    
+    
+}
+
+#calc2 {
+    padding: 15px;
+    margin: auto;
+    
+    
+}
+
+#base {
+   margin: 9px;
+   margin-top: 0px;
+ 
+    
+}
+
+
+
+#calcular {
+ 
+ margin: 0;
+ margin-left: 51px;
+ margin-top: 2pt;
+}
+
+#calcular2 {
+ 
+ margin: 0;
+ margin-left: 41px;
+ margin-top: 2pt;
+}
+
+
+#area {
+   margin: 9px;
+   margin-top: 0px;
+   margin-top: 20px;
+    
+}
+
+#area2 {
+   margin: 9px;
+   margin-top: 0px;
+   margin-top: 48px;
+    
+}
+
+#circulo {
+
+    width: 0px;
+    height: 0px;
+    border: 100px solid;
+    border-color:aqua;
+    border-bottom: 180px solid yellow;
+    margin-top: auto;
+    border-top: 0;
+    border-radius: 50%;
+
+    margin-bottom: auto;
+    margin-left: auto;
+    margin: 0 auto;
+
+
+
+}
+
+#trapezio {
+
+    border-bottom:100px solid coral;
+    border-left: 20px solid transparent;
+    border-right: 15px solid transparent;
+    height: 0;
+    width: 200px;
+
+}
+
+#retangulo {
+
+    line-height:0;
+    width:0;
+    height:0;
+    border-style: solid;
+    border-color: green;
+    border-width: 0 160px 100px 50px;
+
+    margin-bottom: auto;
+    margin-left: auto;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+
+}
+
+#calc {
+    padding: 15px;
+    margin: auto;
+    margin-top: auto;
+
+}
+
+#calc2 {
+    padding: 15px;
+    margin: auto;
+    margin-top: auto;
+
+
+}
+
+#calc3 {
+    padding: 15px;
+    margin: auto;
+margin-top: auto;
+
+}
+
+#raio {
+    margin: 9px;
+    margin-top: 0px;
+
+
+}
+
+
+
+#calcular {
+
+    margin: 0;
+    margin-left: 48px;
+    margin-top: 0pt;
+    
+}
+
+#calcular2 {
+    
+    margin: auto;
+    margin-left: 87px;
+    margin-top:  5px;
+    
+
+}
+
+#calcular3 {
+
+    margin: 0;
+    margin-left: 51px;
+    margin-top: 0pt;
+}
+
+
+#arearaio {
+    margin: 9px;
+    margin-top: 0px;
+  
+
+}
+
+#area2 {
+    margin: 9px;
+    margin-top: 0px;
+    
+}
+
+
+#area3 {
+    margin: 9px;
+    margin-top: 0px;
+    
+}
+
+#lado1 {
+    margin: 9px;
+    margin-top: 0px;
+    
+}
+
+#lado2 {
+    margin: 9px;
+    margin-top: 0px;
+    margin-left: auto;
+    
+}
+
+
+#bcima {
+    margin: 9px;
+    margin-top: 0px;
+
+
+}
+
+#bbaixo {
+    margin: 5px;
+    margin-top: 0px;
+    
+
+
+}
+
+#baltura {
+    margin: auto;
+    margin-top: 2px;
+    margin-left: 38px;
+    
+
+}
