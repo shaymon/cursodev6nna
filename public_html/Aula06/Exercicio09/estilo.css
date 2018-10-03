@@ -1,58 +1,40 @@
 @charset "ISO-8859-1";
 
-body {
-    
+body {    
     background-color: #333;
 }
 
 h1 {
-    
     color: gold;
-    
 }
 
 h3 {
-    
     color: gold;
-    
 }
 
-#pont {
-    
+#bordinic {
     border-top-width: thin;
     border-left-width: thin;
     border-right-width: thin;
     border-bottom-width: thin;
     border-style: dashed;
-    background-color: black;
-    
+    background-color: black; 
 }
 
 p {
-    
-    color: white;
-    
+    color: white;    
 }
-
 
 ol {
-    
-    color: white;
-    
+    color: white;    
 }
 
-
-
-#bord {
-    
+#bordsec {
     border-style: solid;
-    background-color: darkturquoise;
-    width: 90%;
-    
+    background-color:#17a2b8;
+    width: 90%; 
 }
 
 a {
-    
-    color: gold;
-    
+    color: gold;   
 }

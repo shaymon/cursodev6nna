@@ -1,0 +1,75 @@
+@charset "ISO-8859-1";
+
+
+
+
+#f1 {
+
+    background-color: green;
+  
+    height: 90px;
+
+    display: flex;
+    
+}
+
+#f1 span {
+    font-weight: bold;
+    background-color: green;
+    font-size: 16pt;
+    font-family: sans-serif;
+    margin: 10pt;
+}
+
+#f1 img {
+    
+    background-color: rgba(10,23,55,0.5);
+    opacity: 0.9;
+    -moz-opacity: 0.65;
+ 
+    
+}
+
+.container {
+  
+  padding: 12pt;
+     background-color: green;
+   
+    height: 90px;  
+}
+
+#f2 {
+    
+    background-color: gainsboro;
+    padding: 12px;
+    margin-top: 2%;
+height: 90px;
+    
+}
+
+#f3 {
+
+    background-color: gainsboro;
+    padding: 12px;
+    margin-top: 2%;
+height: 90px;
+   display: block;
+    
+}
+
+
+
+#f4 {
+    
+    margin-top: 2%;
+    background-color: green;
+    padding-top: 40px;
+    
+    
+}
+
+
+span {
+    
+    alignment-adjust: central;
+}
